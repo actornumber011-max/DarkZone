@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranjan Kumar - Portfolio</title>
+    <meta name="description" content="Personal portfolio of Ranjan Kumar, Diploma CSE Student.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gradient-bg"></div>
+    <img src="lion.png" id="bg-lion" alt="3D Neon Lion Background">
+
+    <nav class="navbar glass">
+        <div class="logo">RK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="name">Ranjan Kumar</h1>
+            <h3 class="role"><span id="typewriter"></span><span class="cursor">|</span></h3>
+            <p class="description">I build dynamic, modern, and beautiful web experiences.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#about" class="btn btn-outline">Explore My Work</a>
+            </div>
+        </div>
+        <div class="blob-bg"></div>
+    </header>
+
+    <section id="about" class="about section-padding">
+        <div class="section-title reveal">
+            <h2>About <span>Me</span></h2>
+        </div>
+        <div class="about-content glass reveal">
+            <p>I am a passionate</p>
+            <strong>
+                <span class="highlight-text">Diploma (CSE)</span>
+            </strong>
+            <p>student dedicated to mastering modern
+                web technologies.
+                My journey in tech started with a profound curiosity about how the digital world operates, and it has
+                evolved into a passion for creating seamless user experiences. I thrive on solving complex problems and
+                continuously learning new skills.</p>
+        </div>
+    </section>
+
+    <section id="stats" class="stats section-padding">
+        <div class="stats-grid">
+            <div class="stat-item glass reveal">
+                <h3><span class="counter" data-target="10">0</span>+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-item glass reveal" style="transition-delay: 0.1s;">
+                <h3><span class="counter" data-target="5">0</span>+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-item glass reveal" style="transition-delay: 0.2s;">
+                <h3><span class="counter" data-target="2000">0</span>+</h3>
+                <p>Lines of Code</p>
+            </div>
+            <div class="stat-item glass reveal" style="transition-delay: 0.3s;">
+                <h3><span class="counter" data-target="300">0</span>+</h3>
+                <p>Cups of Coffee</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section-padding">
+        <div class="section-title reveal">
+            <h2>My <span>Services</span></h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card glass reveal">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <h3>Web Development</h3>
+                <p>Building responsive, fast, and scalable web applications using modern technologies like React and
+                    Vanilla JS.</p>
+            </div>
+            <div class="service-card glass reveal" style="transition-delay: 0.1s;">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 20h9"></path>
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                    </svg>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Creating intuitive, user-friendly, and visually stunning interfaces with tools like Figma and modern
+                    CSS.</p>
+            </div>
+            <div class="service-card glass reveal" style="transition-delay: 0.2s;">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                </div>
+                <h3>Frontend Optimization</h3>
+                <p>Improving the performance and accessibility of existing websites to ensure the best possible user
+                    experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education section-padding">
+        <div class="section-title reveal">
+            <h2>My <span>Journey</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item glass reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Diploma in Computer Science & Engineering (CSE)</h3>
+                    <h4>Currently Pursuing</h4>
+                    <p>Focusing on core computer science fundamentals, web development technologies, and software
+                        engineering principles. Actively building personal projects to sharpen my skills.</p>
+                </div>
+            </div>
+            <div class="timeline-item glass reveal" style="transition-delay: 0.1s;">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Self-Taught Web Developer</h3>
+                    <h4>Continuous Learning</h4>
+                    <p>Exploring modern frontend technologies like React, creating responsive layouts, and learning
+                        backend integration to build full-stack applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience section-padding">
+        <div class="section-title reveal">
+            <h2>Work <span>Experience</span></h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item glass reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Frontend Developer Intern</h3>
+                    <h4>Tech Startup Inc. | 2025 - Present</h4>
+                    <p>Developed and maintained user-facing features using React.js. Collaborated with UI/UX designers
+                        to implement pixel-perfect designs and improved page load speed by 20%.</p>
+                </div>
+            </div>
+            <div class="timeline-item glass reveal" style="transition-delay: 0.1s;">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Freelance Web Designer</h3>
+                    <h4>Upwork & Fiverr | 2024 - 2025</h4>
+                    <p>Designed and built custom websites for local businesses. Managed client communications, delivered
+                        projects ahead of schedule, and ensured 100% client satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section-padding">
+        <div class="section-title reveal">
+            <h2>My <span>Skills</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card glass reveal">
+                <div class="icon">💻</div>
+                <h3>Frontend</h3>
+                <p><span>HTML</span>, CSS3, JavaScript (ES6+), React</p>
+            </div>
+            <div class="skill-card glass reveal" style="transition-delay: 0.1s;">
+                <div class="icon">🎨</div>
+                <h3>Design</h3>
+                <p>UI/UX, Responsive Design, CSS Animations</p>
+            </div>
+            <div class="skill-card glass reveal" style="transition-delay: 0.2s;">
+                <div class="icon">⚙️</div>
+                <h3>Backend</h3>
+                <p>Node.js, Express, Databases (SQL/NoSQL)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="section-title reveal">
+            <h2>Featured <span>Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass reveal">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80"
+                        alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Website</h3>
+                    <p>A fully responsive e-commerce frontend built with HTML, CSS, and vanilla JS featuring a dynamic
+                        shopping cart.</p>
+                    <a href="#" class="btn btn-outline"
+                        style="padding: 8px 20px; margin-top: 15px; display: inline-block;">View Code</a>
+                </div>
+            </div>
+            <div class="project-card glass reveal" style="transition-delay: 0.1s;">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=400&q=80"
+                        alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A modern task tracker with glassmorphism UI, allowing users to add, delete, and organize their
+                        daily tasks.</p>
+                    <a href="#" class="btn btn-outline"
+                        style="padding: 8px 20px; margin-top: 15px; display: inline-block;">View Code</a>
+                </div>
+            </div>
+            <div class="project-card glass reveal" style="transition-delay: 0.2s;">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=400&q=80"
+                        alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>This very portfolio site! Built with modern CSS variables, scroll animations, and interactive
+                        elements.</p>
+                    <a href="#" class="btn btn-outline"
+                        style="padding: 8px 20px; margin-top: 15px; display: inline-block;">View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications section-padding">
+        <div class="section-title reveal">
+            <h2>Certifications & <span>Achievements</span></h2>
+        </div>
+        <div class="certs-container">
+            <div class="cert-item glass reveal">
+                <div class="cert-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--accent-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                </div>
+                <div class="cert-info">
+                    <h3>Responsive Web Design Certification</h3>
+                    <p>FreeCodeCamp</p>
+                </div>
+            </div>
+            <div class="cert-item glass reveal" style="transition-delay: 0.1s;">
+                <div class="cert-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="var(--accent-secondary)" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                </div>
+                <div class="cert-info">
+                    <h3>JavaScript Algorithms and Data Structures</h3>
+                    <p>HackerRank</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="section-title reveal">
+            <h2>Client <span>Testimonials</span></h2>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testi-card glass reveal">
+                <p class="quote">"Ranjan is an incredibly talented developer. He delivered our website exactly as we
+                    envisioned, and the animations are buttery smooth!"</p>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background-color: var(--accent-primary);"></div>
+                    <div>
+                        <h4>Sarah Jenkins</h4>
+                        <p>CEO, StartupX</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card glass reveal" style="transition-delay: 0.1s;">
+                <p class="quote">"Great communication and top-notch code quality. The UI design he created was beyond my
+                    expectations."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar" style="background-color: var(--accent-secondary);"></div>
+                    <div>
+                        <h4>David Chen</h4>
+                        <p>Product Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog section-padding">
+        <div class="section-title reveal">
+            <h2>Latest <span>Articles</span></h2>
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card glass reveal">
+                <div class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=400&q=80"
+                        alt="CSS Glassmorphism"
+                        style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.5s ease;">
+                </div>
+                <div class="blog-info">
+                    <span>April 15, 2026</span>
+                    <h3>The Future of CSS Glassmorphism</h3>
+                    <p>Exploring how modern UI trends are shaping the web and how to implement them efficiently...</p>
+                    <a href="#"
+                        style="color: var(--accent-secondary); text-decoration: none; margin-top: 10px; display: inline-block;">Read
+                        More &rarr;</a>
+                </div>
+            </div>
+            <div class="blog-card glass reveal" style="transition-delay: 0.1s;">
+                <div class="blog-img">
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=400&q=80"
+                        alt="React Performance"
+                        style="width: 100%; height: 200px; object-fit: cover; transition: transform 0.5s ease;">
+                </div>
+                <div class="blog-info">
+                    <span>March 28, 2026</span>
+                    <h3>Optimizing React Performance</h3>
+                    <p>Five key strategies to ensure your React applications render at 60fps without lag...</p>
+                    <a href="#"
+                        style="color: var(--accent-secondary); text-decoration: none; margin-top: 10px; display: inline-block;">Read
+                        More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq section-padding">
+        <div class="section-title reveal">
+            <h2>Frequently Asked <span>Questions</span></h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item glass reveal">
+                <h3>Are you available for freelance work?</h3>
+                <p>Yes! I am currently accepting new clients for web design and frontend development projects.</p>
+            </div>
+            <div class="faq-item glass reveal" style="transition-delay: 0.1s;">
+                <h3>What technologies do you use?</h3>
+                <p>My primary stack includes HTML5, CSS3, JavaScript (ES6+), React, Node.js, and modern CSS frameworks.
+                </p>
+            </div>
+            <div class="faq-item glass reveal" style="transition-delay: 0.2s;">
+                <h3>Do you design as well as code?</h3>
+                <p>Absolutely. I believe in creating a cohesive experience, bridging the gap between beautiful UI design
+                    and functional frontend code.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="section-title reveal">
+            <h2>Get in <span>Touch</span></h2>
+        </div>
+        <div class="contact-content reveal">
+            <div class="contact-info glass">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out to me for any work or suggestions!</p>
+                <a href="tel:+917033881068" class="info-item clickable">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                    </span>
+                    <p>+91 7033881068</p>
+                </a>
+                <a href="mailto:actornubmer.011@gmail.com" class="info-item clickable">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </span>
+                    <p>actornubmer.011@gmail.com</p>
+                </a>
+                <a href="https://instagram.com/actornumberone" target="_blank" class="info-item clickable">
+                    <span class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </span>
+                    <p>@actornumberone</p>
+                </a>
+            </div>
+            <div class="contact-form-container glass">
+                <form id="contact-form" class="contact-form" action="https://formsubmit.co/actornubmer.011@gmail.com"
+                    method="POST">
+                    <!-- Disable FormSubmit Captcha & Thank you page -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="">
+                    <input type="hidden" name="_subject" value="New message from your Portfolio!">
+                    <div class="input-group">
+                        <input type="text" name="name" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="input-group">
+                        <textarea name="message" id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter section-padding">
+        <div class="newsletter-container glass reveal"
+            style="text-align: center; max-width: 800px; margin: 0 auto; padding: 60px 40px;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Subscribe to my <span>Newsletter</span></h2>
+            <p style="color: var(--text-muted); margin-bottom: 30px;">Get the latest updates on my articles, tutorials,
+                and new projects directly in your inbox.</p>
+            <form
+                style="display: flex; gap: 15px; justify-content: center; max-width: 500px; margin: 0 auto; flex-wrap: wrap;">
+                <input type="email" placeholder="Enter your email" required
+                    style="flex: 1; padding: 15px; border-radius: 12px; border: 1px solid var(--glass-border); background: rgba(255,255,255,0.05); color: white;">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ranjan Kumar. Crafted with passion.</p>
+    </footer>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
